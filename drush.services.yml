@@ -1,0 +1,6 @@
+services:
+  marvin_incubator.phpcs.commands:
+    class: 'Drush\Commands\marvin_phpcs_incubator\PhpcsCommands'
+    tags:
+      -
+        name: 'drush.command'
